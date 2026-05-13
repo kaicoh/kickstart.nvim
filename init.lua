@@ -172,6 +172,13 @@ do
   -- See `:help 'confirm'`
   vim.o.confirm = true
 
+  -- Indentation
+  -- インデント用設定
+  vim.opt.tabstop = 4
+  vim.opt.shiftwidth = 4
+  vim.opt.expandtab = true
+  vim.opt.softtabstop = 4
+
   -- [[ Basic Keymaps ]]
   --  See `:help vim.keymap.set()`
 
